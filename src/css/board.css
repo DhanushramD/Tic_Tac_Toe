@@ -1,0 +1,85 @@
+/* :root {
+	--board-background: none;
+	--border-color: #f6546a;
+	--border-thickness: 5px;
+} */
+
+.board{
+	width: 40%;
+	height: 50%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+
+.input{
+	height: 80px;
+	width: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	font-family: 'Bellefair', serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 6rem;
+}
+
+.input-1{
+	width: 100px;
+	border-right: 5px dotted #f6546a;
+	border-bottom: 5px dotted #f6546a;
+	padding: 40px;
+	text-align: center	;
+}
+
+.input-2{
+	width: 100px;
+	padding: 40px;
+	border-right: 5px dotted #f6546a;
+	border-bottom: 5px dotted #f6546a;
+	text-align: start;
+	margin-left: -22px;
+}
+
+.input-3{
+	width: 100px;
+	padding: 40px;
+	border-bottom: 5px dotted #f6546a;
+	margin-left: -25px;
+}
+
+.input-4{
+	width: 100px;
+	padding: 40px;
+	border-right: 5px dotted #f6546a;
+	border-bottom: 5px dotted #f6546a;
+}
+
+.input-5{
+	width: 100px;
+	padding: 40px;
+	border-right: 5px dotted #f6546a;
+	border-bottom: 5px dotted #f6546a;
+	margin-left: -22px;
+}
+
+.input-6{
+	width: 100px;
+	padding: 40px;
+	border-bottom: 5px dotted #f6546a;
+	margin-left: -25px;
+}
+
+.input-7{
+	width: 100px;
+	padding: 40px;
+	border-right: 5px dotted #f6546a;
+}
+
+.input-8{
+	width: 100px;
+	padding: 40px;
+	border-right: 5px dotted #f6546a;
+	margin-left: -22px;
+}
